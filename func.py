@@ -3,6 +3,10 @@
 
 # Functions
 
+#creating a account
+def create_account():
+    pass
+
 #checking balance
 def check_balance():
     pass
