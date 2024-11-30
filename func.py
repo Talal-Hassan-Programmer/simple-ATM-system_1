@@ -19,7 +19,7 @@ def create_account():
          c_a.write(f"default deposit is {default_deposit} \n")
 
     with open(f"{account_number}.txt","w") as c_a:
-        c_a.write(f"Balance = {default_deposit}")
+        c_a.write(f"Your balance is {default_deposit}")
 
 
 
