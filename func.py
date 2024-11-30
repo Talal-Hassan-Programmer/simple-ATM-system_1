@@ -9,13 +9,14 @@ def create_account():
     customer_name = input("PLs enter you name: \n")
     account_number = int(input("pls enter a new account number to create one: \n"))
     default_deposit = int(input("Pls make a deposit : \n"))
+    
     with open(f"{account_number} logs","w") as c_a:
         c_a.write(f"This account belongs to {customer_name} ")
 
     with open(f"{account_number} logs","a") as c_a:
          c_a.write(f"default deposit is {default_deposit}")
 
-    with open(account_number,"w") as c_a:
+    with open(f"{account_number}","w") as c_a:
         c_a.write(f"x = {default_deposit}")
 
 
